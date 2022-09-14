@@ -126,7 +126,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($resultado) {
       //Redireccionar al usuario
 
-      header('Location: /inmuebles/index.php?resultado=2');
+      header('Location: /index.php?resultado=2');
     }
   }
 }
